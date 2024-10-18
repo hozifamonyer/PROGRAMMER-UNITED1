@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fromstyle.css">
+    <link rel="shortcut icon" href="./asstes/icons/icons8-programmer-100.png" type="image/x-icon">
+    <title>PROGRAMMER UNITED</title>
+</head>
+<body>
+    <center>
+        <div class="froms">
+            <h1 id="h11">Forms</h1>
+            <br>
+            <input type="email" name="email" id="email1" placeholder="EMAIL" required style="width: 200px; height: 40px; background-color: rgb(67, 52, 134); border: 0;">
+            <br>
+            <br>
+            <textarea name="requirements" id="requirements1" placeholder="What are the requirements that you want? What do you want?" style="width: 300px; height: 100px; background-color: rgb(67, 52, 134); border: 0;" required></textarea>
+            <br>
+            <br>
+            <button type="button" class="bu" id="btn1">Request Now</button>
+            <br>
+            <br>
+            <br>
+            <div class="s23" id="ss2">
+                <br>
+                <h1 id="Service Type" style="color: wheat"></h1>
+                <p id="outemail" style="border: 2px solid wheat; font-size: 20px; width: 200px; height: 40px; color: wheat; border-radius: 20px; background-color: rgba(75, 38, 107, 0.274);"></p>
+                <br>
+                <p id="outrequirements" style="border: 2px solid wheat; font-size: 20px; width: 300px; height: 100px; color: wheat; border-radius: 20px; background-color: rgba(75, 38, 107, 0.274);"></p>
+            </div>
+        </div>
+    </center>
+
+    <script>
+        const btn1 = document.getElementById("btn1");
+        const outemail = document.getElementById("outemail");
+        const outrequirements = document.getElementById("outrequirements");
+
+        function fun1() {
+            // تصحيح IDs المتغيرات
+            let email = document.getElementById("email1").value; // استخدام id الصحيح
+            let requirements = document.getElementById("requirements1").value; // استخدام id الصحيح
+
+            // عرض القيم في العناصر المناسبة
+            outemail.textContent = email;
+            outrequirements.textContent = requirements;
+        }
+
+        // تعديل طريقة إضافة الحدث
+        btn1.addEventListener('click', fun1);
+    </script>
+</body>
+</script>
+</html>

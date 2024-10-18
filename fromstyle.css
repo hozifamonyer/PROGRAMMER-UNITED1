@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(to right, #7131ca, rgba(184, 180, 180, 0.774));
+}
+.froms{
+    color: wheat;
+    padding: 30px;
+    width: 450px;
+    height: 250px;
+    border: 5px solid rgb(108, 94, 182);
+    background-color: rgba(75, 38, 107, 0.274);
+    border-radius : 10px; ;
+    position: relative;
+    box-shadow: -8px 1px 12px 8px rgb(46, 58, 90);
+    color: wheat;
+}
+::placeholder{
+    padding: 10px;
+    color: wheat;
+}
+
+.bu{
+
+    width: 150px;
+    height: 30px;
+    background-color: rgb(17, 95, 7);
+    color: wheat;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition:1.5s  tarnsfrom ease ;
+    transform: translate(0);
+
+}
+.bu:hover{
+    background-color: rgb(33, 175, 14);
+    color: wheat;
+    transform: scaleX(1);
+    transition:1s all;
+}
+ .s23{
+    position: relative;
+    right: 30px;
+    padding: 12px;
+    width: 450px;
+    height: 250px;
+    border: 5px solid rgb(108, 94, 182);
+    background-color: rgba(75, 38, 107, 0.274);
+    border-radius : 10px; ;
+    box-shadow: -8px 1px 12px 8px rgb(46, 58, 90);
+    color: wheat;
+ }
